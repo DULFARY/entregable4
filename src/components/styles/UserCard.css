@@ -1,0 +1,46 @@
+.user{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgb(67, 167, 167);
+    margin: 0.2em; padding: 1em 1em 2em;
+}
+
+.card__name{
+    font-size: 2em;
+    text-align: center;
+}
+
+.card__list{
+   display: flex; 
+   flex-direction:column;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+}
+
+.card__label{
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 1.1em;
+}
+
+.card__value{
+    margin-left: 1em;
+}
+
+.card__btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 1.2em;
+    padding: 0 1em;
+    border: none;
+}
+
+
